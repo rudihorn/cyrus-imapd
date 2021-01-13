@@ -2408,7 +2408,7 @@ product version in the capabilities
    option has no effect on options that are disabled at compile time
    (e.g., "regex"). */
 
-{ "sieve_folder", "#sieve", STRING, "3.3.1" }
+{ "sieve_folder", "#sieve", STRING, "3.3.2" }
 /* The name of the folder for storing Sieve scripts (#sieve) */
 
 { "sieve_maxscriptsize", 32, INT, "2.3.17" }
