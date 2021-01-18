@@ -7636,19 +7636,19 @@ static int principalfilter_matchexpr(json_t *jp,
         }
         if (expr->email) {
             filter->xqmatches = 0;
-            xapian_query_run(filter->db, expr->email, 0,
+            xapian_query_run(filter->db, expr->email,
                     principalfilter_matchexpr_cb, filter);
             if (!filter->xqmatches) return 0;
         }
         if (expr->name) {
             filter->xqmatches = 0;
-            xapian_query_run(filter->db, expr->name, 0,
+            xapian_query_run(filter->db, expr->name,
                     principalfilter_matchexpr_cb, filter);
             if (!filter->xqmatches) return 0;
         }
         if (expr->text) {
             filter->xqmatches = 0;
-            xapian_query_run(filter->db, expr->text, 0,
+            xapian_query_run(filter->db, expr->text,
                     principalfilter_matchexpr_cb, filter);
             if (!filter->xqmatches) return 0;
         }
