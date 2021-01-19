@@ -411,6 +411,7 @@ EXPORTED uint32_t mboxlist_string_to_mbtype(const char *string)
             break;
         case 'j':
             mbtype = MBTYPE_JMAPNOTIFY;
+            break;
         case 'n':
             mbtype = MBTYPE_NETNEWS;
             break;
