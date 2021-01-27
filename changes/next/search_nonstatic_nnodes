@@ -1,0 +1,11 @@
+Description:
+
+Prevents a subtle bug in search, where a static variable may not be reset for each search request.
+
+Config changes:
+
+None.
+
+Upgrade instructions:
+
+None.
